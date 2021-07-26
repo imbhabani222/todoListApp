@@ -1,0 +1,38 @@
+.list {
+  background-color: #fff;
+  color: #6f1d1b;
+  width: 80%;
+  height: 10%;
+  margin: 1% auto;
+  border: 0;
+  border-radius: 5px;
+}
+.list p {
+  padding: 1%;
+  position: relative;
+  font-size: 20px;
+}
+.list p span {
+  position: absolute;
+  right: 1%;
+}
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: #6f1d1b;
+  font-size: 18px;
+}
+.list p input:focus {
+  outline: none;
+}
+.delbtn {
+  background-color: #6f1d1b;
+  color: #fff;
+  font-size: 12px;
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bolder;
+}
